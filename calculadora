@@ -1,0 +1,7 @@
+function dividir(y, a) {
+    return y / (2 * a);
+}
+function bhaskara(a, b, c, callbackDividir) {
+    const x = b * (-1) + sqrt(b ** 2 - 4 * a * c);
+    return callbackDividir(x, a);
+}
